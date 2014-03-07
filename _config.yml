@@ -8,3 +8,5 @@ paginate: 5
 social:
   github: gmurphey
   twitter: gmurphey
+
+exclude: [CNAME, Gemfile, Gemfile.lock, Procfile, config.rb, sass]
