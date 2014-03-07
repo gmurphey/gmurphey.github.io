@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="/stylesheets/syntax.css">
+        <link rel="stylesheet" href="/stylesheets/icons.css">
+        <link rel="stylesheet" href="/stylesheets/styles.css">
+
+    </head>
+    <body>
+
+        <div class="container">
+          <div class="site">
+            <div class="header">
+              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+              <cite>{{ site.tagline }}</cite>
+            </div>
+
+                {{ content }}
+
+            <div class="footer">
+              <div class="contact">
+                <p>
+                <a href="http://github.com/{{ site.social.github }}/"><i class="icon-github-sign"></i></a>
+                <a href="http://twitter.com/{{ site.social.twitter }}/"><i class="icon-twitter-sign"></i></a>
+                </p>
+              </div>
+            </div>
+
+        </div> <!-- /container -->
+
+    </body>
+    <script type="text/javascript" src="//use.typekit.net/ylm7miy.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</html>

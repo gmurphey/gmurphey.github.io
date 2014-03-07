@@ -1,0 +1,72 @@
+@import "variables";
+@import "bootstrap";
+@import "compass/typography/vertical_rhythm";
+
+.typekit {
+  font-family: 'adelle', georgia, serif;
+}
+
+#{headings()} {
+  @extend .typekit;
+
+  a {
+    color: $text-color;
+  }
+}
+
+div.container {
+  div.site {
+    @include make-row();
+
+    div.header {
+      @include make-xs-column(11);
+      @include make-sm-column(6);
+
+      // vertical rhythm
+      @include margin-leader(2);
+      @include margin-trailer(1);
+      @include padding-leader(1);
+      @include padding-trailer(1);
+
+      background-color: $gray-lighter;
+      font-weight: bolder;
+
+      h1 {
+        margin-top: 0;
+        font-weight: bolder;
+      }
+
+      cite {
+        @extend .typekit;
+      }
+    }
+
+    div.content {
+      @include make-xs-column(12);
+      @include make-sm-column(8);
+
+      div.post {
+        h2 {
+          margin-bottom: 0;
+        }
+
+        cite {
+          @include margin-trailer(1);
+
+          display: block;
+          color: $gray-light;
+        }
+      }
+
+      hr {
+        @include margin-leader(2);
+        @include margin-trailer(2);
+      }
+    }
+
+    div.footer {
+      @include make-xs-column(10);
+      @include rhythm(1);
+    }
+  }
+}
