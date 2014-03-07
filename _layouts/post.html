@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<cite>{{ page.date | date: "%B %d, %Y" }}</cite>
+<div class="post">
+  <h2>{{ page.title }}</h2>
+  <cite>{{ page.date | date: "%B %d, %Y" }}</cite>
 
-{{ content }}
+  {{ content }}
+</div>
