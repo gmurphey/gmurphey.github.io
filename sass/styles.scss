@@ -22,6 +22,14 @@ a:hover {
   text-decoration: none;
 }
 
+p {
+  @include margin-trailer(1);
+}
+
+div.highlight {
+  @include margin-trailer(1);
+}
+
 div.container {
   div.site {
     @include make-row();

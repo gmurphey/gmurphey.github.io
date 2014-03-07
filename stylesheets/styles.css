@@ -7613,7 +7613,17 @@ a:hover {
   text-decoration: none;
 }
 
-/* line 26, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
+p {
+  margin-bottom: 1.5em;
+}
+
+/* line 29, ../sass/styles.scss */
+div.highlight {
+  margin-bottom: 1.5em;
+}
+
+/* line 34, ../sass/styles.scss */
 div.container div.site {
   margin-left: -15px;
   margin-right: -15px;
@@ -7627,7 +7637,7 @@ div.container div.site:before, div.container div.site:after {
 div.container div.site:after {
   clear: both;
 }
-/* line 29, ../sass/styles.scss */
+/* line 37, ../sass/styles.scss */
 div.container div.site div.header {
   position: relative;
   float: left;
@@ -7647,18 +7657,18 @@ div.container div.site div.header {
   font-weight: bolder;
 }
 @media (min-width: 768px) {
-  /* line 29, ../sass/styles.scss */
+  /* line 37, ../sass/styles.scss */
   div.container div.site div.header {
     float: left;
     width: 50%;
   }
 }
-/* line 42, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 div.container div.site div.header h1 {
   margin-top: 0;
   font-weight: bolder;
 }
-/* line 52, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 div.container div.site div.content {
   position: relative;
   float: left;
@@ -7672,28 +7682,28 @@ div.container div.site div.content {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 52, ../sass/styles.scss */
+  /* line 60, ../sass/styles.scss */
   div.container div.site div.content {
     float: left;
     width: 66.6666666667%;
   }
 }
-/* line 57, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 div.container div.site div.content div.post h2 {
   margin-bottom: 0;
 }
-/* line 61, ../sass/styles.scss */
+/* line 69, ../sass/styles.scss */
 div.container div.site div.content div.post cite {
   margin-bottom: 1.5em;
   display: block;
   color: #999999;
 }
-/* line 69, ../sass/styles.scss */
+/* line 77, ../sass/styles.scss */
 div.container div.site div.content hr {
   margin-top: 3em;
   margin-bottom: 3em;
 }
-/* line 75, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 div.container div.site div.footer {
   position: relative;
   float: left;
@@ -7703,7 +7713,7 @@ div.container div.site div.footer {
   padding-right: 15px;
   margin-top: 3em;
 }
-/* line 79, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 div.container div.site div.footer i {
   font-size: 36px;
 }
