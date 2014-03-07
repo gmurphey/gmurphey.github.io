@@ -6,4 +6,12 @@ layout: default
   <cite>{{ page.date | date: "%B %d, %Y" }}</cite>
 
   {{ content }}
+
+  {% if site.social.github and page.github %}
+  <div class="btn-group">
+    <a class="btn btn-default" href="http://github.com/{{site.social.github}}/{{page.github}}">View on GitHub</a>
+    <a class="btn btn-default" href="http://github.com/{{site.social.github}}/{{page.github}}/zipball/master">Download as zip</a>
+    <a class="btn btn-default" href="http://github.com/{{site.social.github}}/{{page.github}}/tarball/master">Download as tar.gz</a>
+  </div>
+  {% endif %}
 </div>
