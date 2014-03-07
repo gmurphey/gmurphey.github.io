@@ -23,12 +23,13 @@
               {{ content }}
             </div>
             <div class="footer">
-              <div class="contact">
-                <p>
+              <p>
                 <a href="http://github.com/{{ site.social.github }}/"><i class="icon-github-sign"></i></a>
                 <a href="http://twitter.com/{{ site.social.twitter }}/"><i class="icon-twitter-sign"></i></a>
-                </p>
-              </div>
+              </p>
+              <p>
+                &copy; {{ site.time | date: "%Y" }}, {{ site.name }}. All Rights Reserved.
+              </p>
             </div>
 
         </div> <!-- /container -->
