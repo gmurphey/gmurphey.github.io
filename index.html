@@ -6,7 +6,7 @@ title: Your New Jekyll Site
 {% for post in site.posts %}
 <div class="post">
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <cite>{{ post.date | date_to_string }}</cite>
+  <cite>{{ post.date | date: "%B %d, %Y" }}</cite>
 
   {{ post.excerpt }}
 </div>
