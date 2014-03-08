@@ -1,5 +1,5 @@
 ---
-title: "Jekyll Plugin: Replacing Pygments Highlighting With Prism.js"
+title: "Jekyll: Replacing Pygments Highlighting With Prism.js"
 layout: post
 date: 2012-08-09
 

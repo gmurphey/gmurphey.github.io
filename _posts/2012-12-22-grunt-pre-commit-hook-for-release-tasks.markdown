@@ -1,5 +1,5 @@
 ---
-title: "Git Pre-Commit Hook for Grunt Release Tasks & Tests"
+title: "Running Grunt Tasks with Git Pre-Commit Hooks"
 layout: post
 date: 2012-12-22
 ---
