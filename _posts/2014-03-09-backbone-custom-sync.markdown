@@ -67,7 +67,7 @@ If, for some reason, you want to use the default `Backbone.sync` functionality f
 {% highlight javascript %}
 var Model = Backbone.CustomSync.Model.extend({
   readSync: function (options) {
-    return this.xhrSync();
+    this.xhrSync('read', this, options);
   }
 });
 {% endhighlight %}
