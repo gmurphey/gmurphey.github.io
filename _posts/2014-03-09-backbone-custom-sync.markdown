@@ -60,7 +60,7 @@ var Model = Backbone.CustomSync.Model.extend({
 });
 {% endhighlight %}
 
-If you don't define one of these sync methods -- `createSync`, for example -- and Backbone attempts to save a new model, the `options.error` callback will be invoked automatically. *Backbone.CustomSync will only perform the operations you define*.
+If you don't define one of these sync methods -- `createSync`, for example -- and Backbone attempts to save a new model, the `options.error` callback will be invoked automatically. **Backbone.CustomSync will only perform the operations you define**.
 
 If, for some reason, you want to use the default `Backbone.sync` functionality for one of your sync procedures, that's easy.
 
