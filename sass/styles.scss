@@ -72,6 +72,10 @@ div.container {
           display: block;
           color: $gray-light;
         }
+
+        div.btn-group {
+          @include margin-trailer(1);
+        }
       }
 
       hr {

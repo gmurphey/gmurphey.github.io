@@ -7698,12 +7698,16 @@ div.container div.site div.content div.post cite {
   display: block;
   color: #999999;
 }
-/* line 77, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
+div.container div.site div.content div.post div.btn-group {
+  margin-bottom: 1.5em;
+}
+/* line 81, ../sass/styles.scss */
 div.container div.site div.content hr {
   margin-top: 3em;
   margin-bottom: 3em;
 }
-/* line 83, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 div.container div.site div.footer {
   position: relative;
   float: left;
@@ -7713,7 +7717,7 @@ div.container div.site div.footer {
   padding-right: 15px;
   margin-top: 3em;
 }
-/* line 87, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 div.container div.site div.footer i {
   font-size: 36px;
 }
