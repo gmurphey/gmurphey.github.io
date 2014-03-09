@@ -6,7 +6,7 @@ date: 2014-03-09
 github: backbone.customsync
 ---
 
-Many times while building a [Backbone.js](http://backbonejs.org) application, you'll either be working with an API wrapped by a library or non-RESTful resources. This can be a pain, and you'll most likely end up having to override `Backbone.sync` with a giant `switch` statement. If you're writing tests against this new `sync` method, it can seem near impossible to cover all the cases. Backbone.CustomSync attempts to alleviate some of that pain by extending `Backbone.sync` to allow for custom behavior for each of the `sync` procedures.
+Many times while building a [Backbone.js](http://backbonejs.org) application, you'll either be working with an API wrapped by a library or non-RESTful resources. This can be a pain, and you'll most likely end up having to override `Backbone.sync` with a [giant `switch` statement](http://dailyjs.com/2012/12/20/backbone-tutorial-4/). If you're writing tests against this new `sync` method, it can seem near impossible to cover all the cases. Backbone.CustomSync attempts to alleviate some of that pain by extending `Backbone.sync` to allow for custom behavior for each of the `sync` procedures.
 
 ### Getting Started
 
