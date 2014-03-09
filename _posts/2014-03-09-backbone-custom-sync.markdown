@@ -72,4 +72,4 @@ var Model = Backbone.CustomSync.Model.extend({
 });
 {% endhighlight %}
 
-Hopefully Backbone.CustomSync can make working with models and collections with unconventional Backbone resources easier and more enjoyable. As always, feel free to file an issue or file a pull request. Enjoy!
+Hopefully Backbone.CustomSync can make working on models and collections with unconventional Backbone resources easier and more enjoyable. As always, feel free to file an issue or file a pull request. Enjoy!
