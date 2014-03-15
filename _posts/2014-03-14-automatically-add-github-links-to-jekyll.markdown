@@ -36,7 +36,7 @@ And then finally, I hooked the two up in the my post layout:
 <ul>
   <li>
     <a href="http://github.com/{{site.social.github}}/{{page.github}}">
-      View on Github
+      View on GitHub
     </a>
   </li>
 </ul>
